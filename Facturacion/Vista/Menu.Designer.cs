@@ -222,6 +222,7 @@
             this.ClientesToolStripButton.Size = new System.Drawing.Size(55, 60);
             this.ClientesToolStripButton.Text = "Clientes";
             this.ClientesToolStripButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ClientesToolStripButton.Click += new System.EventHandler(this.ClientesToolStripButton_Click);
             // 
             // toolStripTabItem4
             // 

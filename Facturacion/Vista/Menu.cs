@@ -23,5 +23,12 @@ namespace Vista
             productosForm.MdiParent = this;
             productosForm.Show();
         }
+
+        private void ClientesToolStripButton_Click(object sender, EventArgs e)
+        {
+            ClientesForm clientesForm = new ClientesForm();
+            clientesForm.MdiParent = this;
+            clientesForm.Show();
+        }
     }
 }

@@ -188,6 +188,7 @@
             // 
             // NuevoButton
             // 
+            this.NuevoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NuevoButton.Location = new System.Drawing.Point(218, 267);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(86, 33);
@@ -198,6 +199,7 @@
             // 
             // ModificarButton
             // 
+            this.ModificarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ModificarButton.Location = new System.Drawing.Point(310, 267);
             this.ModificarButton.Name = "ModificarButton";
             this.ModificarButton.Size = new System.Drawing.Size(86, 33);
@@ -209,6 +211,7 @@
             // GuardarButton
             // 
             this.GuardarButton.Enabled = false;
+            this.GuardarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GuardarButton.Location = new System.Drawing.Point(402, 267);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(86, 33);
@@ -219,6 +222,7 @@
             // 
             // EliminarButton
             // 
+            this.EliminarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EliminarButton.Location = new System.Drawing.Point(494, 267);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(86, 33);
@@ -230,6 +234,7 @@
             // CancelarButton
             // 
             this.CancelarButton.Enabled = false;
+            this.CancelarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CancelarButton.Location = new System.Drawing.Point(586, 267);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(86, 33);
