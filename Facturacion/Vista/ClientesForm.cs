@@ -35,6 +35,7 @@ namespace Vista
             DireccionTextBox.Enabled = true;
             NacimientoDateTimePicker.Enabled = true;
             EstaActivoCheckBox.Enabled = true;
+            GuardarButton.Enabled = true;
             CancelarButton.Enabled = true;
             ModificarButton.Enabled = false;
         }
@@ -48,9 +49,10 @@ namespace Vista
             {
                 NIdentidadTextBox.Text = ClientesDataGridView.CurrentRow.Cells["Identidad"].Value.ToString();
                 NombreTextBox.Text = ClientesDataGridView.CurrentRow.Cells["Nombre"].Value.ToString();
+                TelefonoTextBox.Text = ClientesDataGridView.CurrentRow.Cells["Telefono"].Value.ToString();
                 CorreoTextBox.Text = ClientesDataGridView.CurrentRow.Cells["Correo"].Value.ToString();
                 DireccionTextBox.Text = ClientesDataGridView.CurrentRow.Cells["Direccion"].Value.ToString();
-                NacimientoDateTimePicker.Value = Convert.ToDateTime(ClientesDataGridView.CurrentRow.Cells["FechaNacimiento"]);
+                NacimientoDateTimePicker.Value = Convert.ToDateTime(ClientesDataGridView.CurrentRow.Cells["FechaNacimiento"].Value);
                 EstaActivoCheckBox.Checked = Convert.ToBoolean(ClientesDataGridView.CurrentRow.Cells["EstaActivo"].Value);
 
                 HabilitarControles();
@@ -78,6 +80,7 @@ namespace Vista
             DireccionTextBox.Enabled = false;
             NacimientoDateTimePicker.Enabled = false;
             EstaActivoCheckBox.Enabled = false;
+            GuardarButton.Enabled = false;
             CancelarButton.Enabled = false;
             ModificarButton.Enabled = true;
         }
@@ -90,8 +93,8 @@ namespace Vista
             TelefonoTextBox.Clear();
             CorreoTextBox.Clear();
             DireccionTextBox.Clear();
-            NacimientoDateTimePicker = null;
-            EstaActivoCheckBox.Enabled = false;
+            NacimientoDateTimePicker.Value = DateTime.Now;
+            EstaActivoCheckBox.Checked = false;
         }
 
         private void GuardarButton_Click(object sender, System.EventArgs e)
