@@ -65,7 +65,7 @@
             this.ClientesDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.ClientesDataGridView.Name = "ClientesDataGridView";
             this.ClientesDataGridView.Size = new System.Drawing.Size(849, 188);
-            this.ClientesDataGridView.TabIndex = 39;
+            this.ClientesDataGridView.TabIndex = 18;
             // 
             // CancelarButton
             // 
@@ -75,7 +75,7 @@
             this.CancelarButton.Margin = new System.Windows.Forms.Padding(4);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(115, 41);
-            this.CancelarButton.TabIndex = 38;
+            this.CancelarButton.TabIndex = 17;
             this.CancelarButton.Text = "Cancelar";
             this.CancelarButton.UseVisualStyleBackColor = true;
             this.CancelarButton.Click += new System.EventHandler(this.CancelarButton_Click);
@@ -87,7 +87,7 @@
             this.EliminarButton.Margin = new System.Windows.Forms.Padding(4);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(115, 41);
-            this.EliminarButton.TabIndex = 37;
+            this.EliminarButton.TabIndex = 16;
             this.EliminarButton.Text = "Eliminar";
             this.EliminarButton.UseVisualStyleBackColor = true;
             this.EliminarButton.Click += new System.EventHandler(this.EliminarButton_Click);
@@ -100,7 +100,7 @@
             this.GuardarButton.Margin = new System.Windows.Forms.Padding(4);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(115, 41);
-            this.GuardarButton.TabIndex = 36;
+            this.GuardarButton.TabIndex = 15;
             this.GuardarButton.Text = "Guardar";
             this.GuardarButton.UseVisualStyleBackColor = true;
             this.GuardarButton.Click += new System.EventHandler(this.GuardarButton_Click);
@@ -112,7 +112,7 @@
             this.ModificarButton.Margin = new System.Windows.Forms.Padding(4);
             this.ModificarButton.Name = "ModificarButton";
             this.ModificarButton.Size = new System.Drawing.Size(115, 41);
-            this.ModificarButton.TabIndex = 35;
+            this.ModificarButton.TabIndex = 14;
             this.ModificarButton.Text = "Modificar";
             this.ModificarButton.UseVisualStyleBackColor = true;
             this.ModificarButton.Click += new System.EventHandler(this.ModificarButton_Click);
@@ -124,7 +124,7 @@
             this.NuevoButton.Margin = new System.Windows.Forms.Padding(4);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(115, 41);
-            this.NuevoButton.TabIndex = 34;
+            this.NuevoButton.TabIndex = 13;
             this.NuevoButton.Text = "Nuevo";
             this.NuevoButton.UseVisualStyleBackColor = true;
             this.NuevoButton.Click += new System.EventHandler(this.NuevoButton_Click);
@@ -148,7 +148,7 @@
             this.EstaActivoCheckBox.Margin = new System.Windows.Forms.Padding(4);
             this.EstaActivoCheckBox.Name = "EstaActivoCheckBox";
             this.EstaActivoCheckBox.Size = new System.Drawing.Size(15, 14);
-            this.EstaActivoCheckBox.TabIndex = 31;
+            this.EstaActivoCheckBox.TabIndex = 12;
             this.EstaActivoCheckBox.UseVisualStyleBackColor = true;
             // 
             // label6
@@ -159,7 +159,7 @@
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(77, 16);
-            this.label6.TabIndex = 30;
+            this.label6.TabIndex = 11;
             this.label6.Text = "Esta Activo:";
             // 
             // CorreoTextBox
@@ -169,7 +169,7 @@
             this.CorreoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CorreoTextBox.Name = "CorreoTextBox";
             this.CorreoTextBox.Size = new System.Drawing.Size(301, 22);
-            this.CorreoTextBox.TabIndex = 27;
+            this.CorreoTextBox.TabIndex = 7;
             // 
             // label4
             // 
@@ -179,7 +179,7 @@
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(51, 16);
-            this.label4.TabIndex = 26;
+            this.label4.TabIndex = 6;
             this.label4.Text = "Correo:";
             // 
             // TelefonoTextBox
@@ -189,7 +189,7 @@
             this.TelefonoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.TelefonoTextBox.Name = "TelefonoTextBox";
             this.TelefonoTextBox.Size = new System.Drawing.Size(301, 22);
-            this.TelefonoTextBox.TabIndex = 25;
+            this.TelefonoTextBox.TabIndex = 5;
             // 
             // label3
             // 
@@ -199,7 +199,7 @@
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(107, 16);
-            this.label3.TabIndex = 24;
+            this.label3.TabIndex = 4;
             this.label3.Text = "No. de Teléfono:";
             // 
             // NombreTextBox
@@ -209,7 +209,7 @@
             this.NombreTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.NombreTextBox.Name = "NombreTextBox";
             this.NombreTextBox.Size = new System.Drawing.Size(301, 22);
-            this.NombreTextBox.TabIndex = 23;
+            this.NombreTextBox.TabIndex = 3;
             // 
             // label2
             // 
@@ -219,7 +219,7 @@
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 16);
-            this.label2.TabIndex = 22;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Nombre:";
             // 
             // NIdentidadTextBox
@@ -229,7 +229,7 @@
             this.NIdentidadTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.NIdentidadTextBox.Name = "NIdentidadTextBox";
             this.NIdentidadTextBox.Size = new System.Drawing.Size(301, 22);
-            this.NIdentidadTextBox.TabIndex = 21;
+            this.NIdentidadTextBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -239,7 +239,7 @@
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(109, 16);
-            this.label1.TabIndex = 20;
+            this.label1.TabIndex = 0;
             this.label1.Text = "No. de Identidad:";
             // 
             // DireccionTextBox
@@ -249,7 +249,7 @@
             this.DireccionTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.DireccionTextBox.Name = "DireccionTextBox";
             this.DireccionTextBox.Size = new System.Drawing.Size(301, 22);
-            this.DireccionTextBox.TabIndex = 41;
+            this.DireccionTextBox.TabIndex = 8;
             // 
             // label7
             // 
@@ -259,7 +259,7 @@
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(67, 16);
-            this.label7.TabIndex = 40;
+            this.label7.TabIndex = 8;
             this.label7.Text = "Dirección:";
             // 
             // NacimientoDateTimePicker
@@ -270,7 +270,7 @@
             this.NacimientoDateTimePicker.Location = new System.Drawing.Point(302, 215);
             this.NacimientoDateTimePicker.Name = "NacimientoDateTimePicker";
             this.NacimientoDateTimePicker.Size = new System.Drawing.Size(120, 22);
-            this.NacimientoDateTimePicker.TabIndex = 42;
+            this.NacimientoDateTimePicker.TabIndex = 10;
             // 
             // label5
             // 
@@ -280,7 +280,7 @@
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(138, 16);
-            this.label5.TabIndex = 43;
+            this.label5.TabIndex = 9;
             this.label5.Text = "Fecha de Nacimiento:";
             // 
             // errorProvider1

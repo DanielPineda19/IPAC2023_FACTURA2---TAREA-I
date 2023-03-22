@@ -56,7 +56,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 41);
+            this.label1.Location = new System.Drawing.Point(118, 31);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 0;
@@ -65,7 +65,7 @@
             // CodigoTextBox
             // 
             this.CodigoTextBox.Enabled = false;
-            this.CodigoTextBox.Location = new System.Drawing.Point(146, 38);
+            this.CodigoTextBox.Location = new System.Drawing.Point(212, 28);
             this.CodigoTextBox.Name = "CodigoTextBox";
             this.CodigoTextBox.Size = new System.Drawing.Size(242, 22);
             this.CodigoTextBox.TabIndex = 1;
@@ -73,7 +73,7 @@
             // DescripcionTextBox
             // 
             this.DescripcionTextBox.Enabled = false;
-            this.DescripcionTextBox.Location = new System.Drawing.Point(146, 78);
+            this.DescripcionTextBox.Location = new System.Drawing.Point(212, 68);
             this.DescripcionTextBox.Name = "DescripcionTextBox";
             this.DescripcionTextBox.Size = new System.Drawing.Size(242, 22);
             this.DescripcionTextBox.TabIndex = 3;
@@ -81,7 +81,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(52, 81);
+            this.label2.Location = new System.Drawing.Point(118, 71);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(82, 16);
             this.label2.TabIndex = 2;
@@ -90,7 +90,7 @@
             // ExistenciaTextBox
             // 
             this.ExistenciaTextBox.Enabled = false;
-            this.ExistenciaTextBox.Location = new System.Drawing.Point(146, 119);
+            this.ExistenciaTextBox.Location = new System.Drawing.Point(212, 109);
             this.ExistenciaTextBox.Name = "ExistenciaTextBox";
             this.ExistenciaTextBox.Size = new System.Drawing.Size(242, 22);
             this.ExistenciaTextBox.TabIndex = 5;
@@ -99,7 +99,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(52, 122);
+            this.label3.Location = new System.Drawing.Point(118, 112);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(71, 16);
             this.label3.TabIndex = 4;
@@ -108,7 +108,7 @@
             // PrecioTextBox
             // 
             this.PrecioTextBox.Enabled = false;
-            this.PrecioTextBox.Location = new System.Drawing.Point(146, 162);
+            this.PrecioTextBox.Location = new System.Drawing.Point(212, 152);
             this.PrecioTextBox.Name = "PrecioTextBox";
             this.PrecioTextBox.Size = new System.Drawing.Size(242, 22);
             this.PrecioTextBox.TabIndex = 7;
@@ -117,7 +117,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(52, 165);
+            this.label4.Location = new System.Drawing.Point(118, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 16);
             this.label4.TabIndex = 6;
@@ -127,7 +127,7 @@
             // 
             this.AdjuntarImagenButton.Enabled = false;
             this.AdjuntarImagenButton.Image = global::Vista.Properties.Resources.buscar__1_;
-            this.AdjuntarImagenButton.Location = new System.Drawing.Point(613, 146);
+            this.AdjuntarImagenButton.Location = new System.Drawing.Point(679, 136);
             this.AdjuntarImagenButton.Name = "AdjuntarImagenButton";
             this.AdjuntarImagenButton.Size = new System.Drawing.Size(44, 38);
             this.AdjuntarImagenButton.TabIndex = 9;
@@ -137,7 +137,7 @@
             // ImagenPictureBox
             // 
             this.ImagenPictureBox.BackColor = System.Drawing.Color.White;
-            this.ImagenPictureBox.Location = new System.Drawing.Point(423, 38);
+            this.ImagenPictureBox.Location = new System.Drawing.Point(489, 28);
             this.ImagenPictureBox.Name = "ImagenPictureBox";
             this.ImagenPictureBox.Size = new System.Drawing.Size(186, 146);
             this.ImagenPictureBox.TabIndex = 8;
@@ -146,7 +146,8 @@
             // CancelarButton
             // 
             this.CancelarButton.Enabled = false;
-            this.CancelarButton.Location = new System.Drawing.Point(516, 221);
+            this.CancelarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelarButton.Location = new System.Drawing.Point(579, 214);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(86, 33);
             this.CancelarButton.TabIndex = 23;
@@ -156,7 +157,8 @@
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Location = new System.Drawing.Point(424, 221);
+            this.EliminarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EliminarButton.Location = new System.Drawing.Point(487, 214);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(86, 33);
             this.EliminarButton.TabIndex = 22;
@@ -167,7 +169,8 @@
             // GuardarButton
             // 
             this.GuardarButton.Enabled = false;
-            this.GuardarButton.Location = new System.Drawing.Point(332, 221);
+            this.GuardarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GuardarButton.Location = new System.Drawing.Point(395, 214);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(86, 33);
             this.GuardarButton.TabIndex = 21;
@@ -177,7 +180,8 @@
             // 
             // ModificarButton
             // 
-            this.ModificarButton.Location = new System.Drawing.Point(240, 221);
+            this.ModificarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ModificarButton.Location = new System.Drawing.Point(303, 214);
             this.ModificarButton.Name = "ModificarButton";
             this.ModificarButton.Size = new System.Drawing.Size(86, 33);
             this.ModificarButton.TabIndex = 20;
@@ -187,7 +191,8 @@
             // 
             // NuevoButton
             // 
-            this.NuevoButton.Location = new System.Drawing.Point(148, 221);
+            this.NuevoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NuevoButton.Location = new System.Drawing.Point(211, 214);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(86, 33);
             this.NuevoButton.TabIndex = 19;
@@ -210,7 +215,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(52, 198);
+            this.label5.Location = new System.Drawing.Point(118, 188);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(77, 16);
             this.label5.TabIndex = 25;
@@ -219,7 +224,7 @@
             // EstaActivoCheckBox
             // 
             this.EstaActivoCheckBox.AutoSize = true;
-            this.EstaActivoCheckBox.Location = new System.Drawing.Point(146, 197);
+            this.EstaActivoCheckBox.Location = new System.Drawing.Point(212, 187);
             this.EstaActivoCheckBox.Name = "EstaActivoCheckBox";
             this.EstaActivoCheckBox.Size = new System.Drawing.Size(15, 14);
             this.EstaActivoCheckBox.TabIndex = 26;
@@ -229,7 +234,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 471);
+            this.ClientSize = new System.Drawing.Size(822, 471);
             this.Controls.Add(this.EstaActivoCheckBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.ProductosDataGridView);

@@ -189,18 +189,23 @@ namespace Vista
         {
             if (ClientesDataGridView.SelectedRows.Count > 0)
             {
-                bool elimino = ClienteDB.EliminarCliente(ClientesDataGridView.CurrentRow.Cells["Identidad"].Value.ToString());
+                DialogResult resultado = MessageBox.Show("¿Esta seguro de eliminar el registro?", "Advertencia", MessageBoxButtons.YesNo);
 
-                if (elimino)
+                if (resultado == DialogResult.Yes)
                 {
-                    LimpiarControles();
-                    DeshabilitarControles();
-                    TraerClientes();
-                    MessageBox.Show("Registro eliminado");
-                }
-                else
-                {
-                    MessageBox.Show("No se pudo eliminar del registro");
+                    bool elimino = ClienteDB.EliminarCliente(ClientesDataGridView.CurrentRow.Cells["Identidad"].Value.ToString());
+
+                    if (elimino)
+                    {
+                        LimpiarControles();
+                        DeshabilitarControles();
+                        TraerClientes();
+                        MessageBox.Show("Registro eliminado");
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se pudo eliminar del registro");
+                    }
                 }
             }
             else
